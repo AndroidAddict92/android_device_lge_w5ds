@@ -30,7 +30,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240
 
 PRODUCT_COPY_FILES += \
-    device/lge/w5ds/prebuilt/mixer_paths.xml:system/etc/mixer_paths.xml
+    device/lge/w5ds/mixer_paths.xml:system/etc/mixer_paths.xml
 
 PRODUCT_LOCALES := en_US
 PRODUCT_LOCALES += hdpi
