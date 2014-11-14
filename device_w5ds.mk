@@ -26,7 +26,8 @@ PRODUCT_PACKAGES += Torch
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.device=w5ds \
     ro.product.model=LG-D325 \
-    persist.radio.multisim.config=dsds
+    persist.radio.multisim.config=dsds \
+    ro.sf.lcd_density=240
 
 PRODUCT_LOCALES := en_US
 PRODUCT_LOCALES += hdpi
