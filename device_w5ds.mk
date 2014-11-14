@@ -29,6 +29,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds \
     ro.sf.lcd_density=240
 
+PRODUCT_COPY_FILES += \
+    device/lge/w5ds/prebuilt/mixer_paths.xml:system/etc/mixer_paths.xml
+
 PRODUCT_LOCALES := en_US
 PRODUCT_LOCALES += hdpi
 PRODUCT_AAPT_CONFIG := normal hdpi
