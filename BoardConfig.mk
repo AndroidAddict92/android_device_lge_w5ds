@@ -26,6 +26,8 @@
 TARGET_KERNEL_CONFIG := w5ds_global_com_defconfig
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/w5ds/mkbootimg.mk
 
+TARGET_SPECIFIC_HEADER_PATH += device/lge/w5ds/include
+
 DEVICE_RESOLUTION := 480x800
 
 -include vendor/lge/w5ds/BoardConfigVendor.mk
